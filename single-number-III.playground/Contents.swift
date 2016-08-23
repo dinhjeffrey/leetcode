@@ -13,8 +13,10 @@ class Solution {
         for num in nums {
             if num & result == 0 { // the bit is not set
                 results[0] ^= num
+                results
             } else { // bit is set
                 results[1] ^= num
+                results
             }
         }
         return results
