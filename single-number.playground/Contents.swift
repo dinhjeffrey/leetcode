@@ -12,5 +12,5 @@ class Solution {
 }
 
 let solution = Solution()
-solution.singleNumber([555, 2,3,2,3,1, 555])
+solution.singleNumber([1,2,1,3,2,5])
 
